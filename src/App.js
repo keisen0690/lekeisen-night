@@ -1,4 +1,4 @@
-// ============================================================
+/============================================================
 // LE KEÏSEN NIGHT — App principale
 // Ce fichier connecte la boutique et le tableau de bord admin
 //
