@@ -1,4 +1,4 @@
-// ============================================================
+h// ============================================================border:"1px solid #D4A84355",color:"#D4A843"
 // LE KEÏSEN NIGHT — App principale
 // Ce fichier connecte la boutique et le tableau de bord admin
 //
@@ -6,8 +6,7 @@
 // - Site normal → https://ton-site.com
 // - Admin → https://ton-site.com?admin
 // - Mot de passe admin : keisen2026
-// ============================================================
-
+// ===========================================================
 import { useState, useEffect } from "react";
 
 // ─── DONNÉES PARTAGÉES ──────────────────────────────────────
@@ -688,7 +687,7 @@ style={{gridColumn:["Email","Adresse complète","Téléphone"].includes(label)?"
 <p style={{color:"#2ecc71",fontSize:"12px",marginBottom:"4px"}}>🌙 Livraison cette nuit entre 22h et 6h</p>
 {zone&&<p style={{color:"#555",fontSize:"11px",marginBottom:"4px"}}>📍 {zone.label} — Dép. {zone.dept.join(", ")}</p>}
 <p style={{color:"#333",fontSize:"11px",marginBottom:"26px"}}>Un SMS de confirmation vous sera envoyé.</p>
-<button onClick={()=>{setCheckoutStep(null);setPage("tracking");}} style={{background:"transparent",border:"1px solid #D4A843",color:"#D4A843",border:"1px solid #D4A84355",padding:"10px 24px",fontSize:"11px",fontWeight:700,letterSpacing:"1px",cursor:"pointer",borderRadius:"4px",fontFamily:"'DM Sans',sans-serif",marginBottom:"10px",width:"100%"}}>📦 SUIVRE MA COMMANDE</button>
+<button onClick={()=>{setCheckoutStep(null);setPage("tracking");}} style={{background:"transparent",border:"1px solid #D4A84355",color:"#D4A843":"1px solid #D4A84355",padding:"10px 24px",fontSize:"11px",fontWeight:700,letterSpacing:"1px",cursor:"pointer",borderRadius:"4px",fontFamily:"'DM Sans',sans-serif",marginBottom:"10px",width:"100%"}}>📦 SUIVRE MA COMMANDE</button>
 <button onClick={()=>setCheckoutStep(null)} style={{background:"#D4A843",color:"#0a0a0a",border:"none",padding:"12px 28px",fontSize:"11px",fontWeight:700,letterSpacing:"2px",cursor:"pointer",borderRadius:"4px",fontFamily:"'DM Sans',sans-serif"}}>RETOUR À LA BOUTIQUE</button>
 </div>
 </div>
