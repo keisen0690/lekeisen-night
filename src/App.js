@@ -1331,7 +1331,11 @@ onNewOrder={handleNewOrder}
 )}
 </>
 );
-}{ id: 51, name: "Serviettes Cocktail x50", category: "accessoire", type: "Serviettes", deg: "", price: 3.50, desc: "Serviettes en papier noir élégant", emoji: "🖤", stock: 45, active: true },
+}
+
+// Produits supplémentaires
+const EXTRA_PRODUCTS = [
+{ id: 51, name: "Serviettes Cocktail x50", category: "accessoire", type: "Serviettes", deg: "", price: 3.50, desc: "Serviettes en papier noir élégant", emoji: "🖤", stock: 45, active: true },
 { id: 52, name: "Seau à Glaçons", category: "accessoire", type: "Seau", deg: "", price: 7.90, desc: "Seau chromé avec pince", emoji: "🪣", stock: 20, active: true },
 { id: 53, name: "Décapsuleur Porte-clé", category: "accessoire", type: "Décapsuleur", deg: "", price: 2.50, desc: "Solide et compact", emoji: "🔑", stock: 35, active: true },
 ];
